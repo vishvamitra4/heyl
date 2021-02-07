@@ -1,0 +1,133 @@
+.row{
+    display: flex;
+    background-color:black ;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    
+
+}
+
+.row .col1{
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.835);
+    
+    padding: 5px;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    /* border-right: 1px solid white; */
+    /* border-radius: 17px; */
+}
+@media (max-width:800px) {
+    .row .col1{
+        width: 100%;
+        margin: 10px;
+        
+    }
+}
+
+.row .col1 h3{
+    width: 90%;
+    padding: 5px;
+    font-weight: 100;
+    font-family: -webkit-pictograph;
+    color: white;
+    background-color: transparent;
+   
+}
+
+
+.row .col2 {
+    width: 60%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.835);
+    align-content: space-around;
+    
+    /* border-radius: 17px; */
+
+}
+@media (max-width:800px) {
+    .row .col2{
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+.row .col2 .col21{
+   
+    width: 45%;
+    background-color: rgba(0, 0, 0, 0.835);
+   /* border-right: 1px solid white; */
+
+   
+}
+
+.row .col2 .col22{
+    background-color: rgba(0, 0, 0, 0.835);
+    width: 45%;
+   
+}
+
+
+.col2  li{
+ list-style-type: none;
+ color: white;
+ margin: 2px;
+ background-color: rgba(0, 0, 0, 0.835);
+}
+
+
+.col21 li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.835);
+    font-weight: 700;
+}
+
+.col21 li a:hover{
+    color: rgb(39, 39, 39);
+    transition: .3s;
+}
+
+.col21 li :hover{
+    border-bottom: 1px solid white;
+    transition: .3s;
+
+}
+
+.col2 .col22 li{
+    padding: 3px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.835);
+    
+    
+}
+
+.col2 .col22 li a{
+    color: white;
+    
+}
+.col2 .col22 li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.col21 li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.835);
+    font-weight: 700;
+    font-weight: 100;
+    font-family: -webkit-pictograph;
+}

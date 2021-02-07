@@ -1,0 +1,12 @@
+.final{
+    background-color: transparent;
+    margin-bottom: -26px;
+    width: 100%;
+
+}
+
+.final h3{
+    color: rgba(70, 68, 68, 0.87);
+    text-align: center;
+    padding: 1px;
+}

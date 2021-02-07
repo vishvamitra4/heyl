@@ -1,0 +1,14 @@
+.bottom{
+    width: 100%;
+    height: auto;
+    background-color: #343737;
+    text-align: center;
+    padding: 5px;
+}
+
+.bottom h1{
+     color: black;
+}
+.bottom h3{
+    color: white;
+}

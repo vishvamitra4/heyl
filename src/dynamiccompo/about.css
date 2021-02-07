@@ -1,0 +1,168 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+}
+.about {
+    display: flex;
+    flex-direction: row-reverse;
+
+
+    flex-wrap: wrap;
+    width: 93%;
+    justify-content: space-around;
+    margin: 65px auto;
+
+}
+.about1{
+    display: flex;
+    flex-direction: row;
+    
+    
+    flex-wrap: wrap;
+    width: 93%;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+ .about1 .col2{
+    
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+ .about1 .col2 h1{
+    padding-left: 6%;
+
+}
+ .about1 .col2 h2{
+    padding-left: 6%;
+}
+ .about1 .col2 ul li{
+    background-color: transparent;
+    color: black;
+    list-style-type:square;
+
+
+}
+ .about1 .col1{
+    
+    padding: 5px;
+    width: 35%;
+    
+}
+ .about1 .col1 img{
+    width: 100%;
+    border-radius: 100%;
+    border: 9px solid blue;
+    
+}
+
+.about .col2{
+    
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+ .about .col2 h1{
+    padding-left: 6%;
+
+}
+ .about .col2 h2{
+    padding-left: 6%;
+}
+ .about .col2 ul li{
+    background-color: transparent;
+    color: black;
+    list-style-type:square;
+
+
+}
+ .about .col1{
+    
+    padding: 5px;
+    width: 35%;
+
+    
+}
+ .about .col1 img{
+    width: 100%;
+    border-radius: 100%;
+    border: 9px solid red;
+    
+}
+
+@media (max-width:600px)
+{
+    .about{
+        align-items: center;
+    }
+    .about .col1{
+        width: 90%;
+        
+    }
+    .about .col2{
+        width: 90%;
+        
+    }
+    .about .col1 img{
+        width: 70%;
+    }
+
+    
+    .about1{
+        align-items: center;
+    }
+    .about1 .col1{
+        width: 90%;
+        
+    }
+    .about1 .col1 img{
+        width: 70%;
+    }
+    .about1 .col2{
+        width: 90%;
+        
+    }
+}
+
+.about .col2 button{
+    width: 70%;
+    margin: 4px auto;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 3px;
+    padding: 6px;
+    color: white;
+}
+.about .col2 button:hover{
+    background-color: rgb(255, 0, 0);
+    transition: 0.3s;
+    border: 1px solid rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.about1 .col2 button{
+    width: 70%;
+    margin: 4px auto;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    padding: 6px;
+    color: white;
+}
+.about1 .col2 button:hover{
+    background-color: blue;
+    border: 1px solid blue;
+    transition: 0.3s;
+    cursor: pointer;
+}

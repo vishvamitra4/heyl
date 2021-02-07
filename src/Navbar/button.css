@@ -1,0 +1,9 @@
+.button{
+    background-color: white;
+    padding: 2px;
+}
+
+.button i{
+    color: white;
+    font-family: sans-serif;
+}

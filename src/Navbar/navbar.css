@@ -1,0 +1,102 @@
+.cc{
+    width: 0px;
+    /* opacity: 0%; */
+    position: fixed;
+    left: -72px;
+    top: 0;
+    height: 100vh;
+    
+
+    transition: 0.2s; 
+}
+
+.bb{
+    position: fixed;
+    height: 100vh;
+    background-color: #0300ff;
+    width: 25%;
+    opacity: 100%;
+    z-index: 200;
+    left: 0px;
+    
+    top: 0;
+    transition: 0.5s; 
+   
+  
+
+} 
+
+@media (max-width:600px){
+    .bb{
+        width: 100%;
+    }
+}
+
+
+.navbar-items{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 25vh;
+    text-align: center;
+
+}
+.navbar-items .link {
+    text-decoration: none;
+    width: 100%;
+    padding: 3vh;
+    text-align: center;
+    color: white;
+    background-color: #0300ff;
+}
+.navbar-items .link:hover {
+    border-bottom: 1px solid white;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+.button{
+    background-color: rgb(255, 0, 0);
+    padding: 2px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 24;
+    top: 0;
+    align-content: flex;
+    justify-content:space-between;
+}
+
+.button i{
+    color: black;
+    text-align: right;
+    cursor: pointer;
+  margin-left: 3px;
+
+    background: transparent;
+}
+
+.button h2{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    background: transparent;
+    margin: 0px 0px;
+    margin-right: 10px;
+}
+
+.cut{
+    padding: 2px;
+    padding-right: 5px;
+    text-align: right;
+}
+.cut .fa{
+    color: white;
+}

@@ -1,0 +1,110 @@
+.right-content{
+     /* border: 1px solid red; */
+     width: 60%;
+     padding: 20px;
+    height: 130vh;
+    overflow-y: auto;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     background-color: black;
+ 
+}
+
+
+
+@media (max-width:800px){
+    .right-content{
+        width: 100%;
+    }
+}
+
+
+
+.right-content .img1{
+    width: 53%;
+     border: 2px solid white; 
+    margin: 9px;
+    border-radius: 23px;
+}
+.right-content .img1:hover{
+    opacity: 0.5;
+    box-shadow: 1px 2px 3px white;
+    transition: .5s;
+}
+
+.right-content .img2:hover{
+    opacity: 0.5;
+    box-shadow: 1px 2px 3px white;
+    transition: .5s;
+}
+
+.right-content .img3:hover{
+    opacity: 0.5;
+    box-shadow: 1px 2px 3px white;
+    transition: .5s;
+}
+
+.right-content .img4:hover{
+    opacity: 0.5;
+    box-shadow: 1px 2px 3px white;
+    transition: .5s;
+}
+
+.right-content .img5:hover{
+    opacity: 0.5;
+    box-shadow: 1px 2px 3px white;
+    transition: .5s;
+}
+
+
+
+.right-content .img2{
+ width: 34%;
+  border: 2px solid white; 
+ border-radius: 20px;
+ 
+
+}
+.right-content .img3{
+    width: 50%;
+ border: 2px solid white;
+ border-radius: 20px;
+
+
+   }
+   .right-content .img4{
+    width: 45%;
+    border: 2px solid white;
+    /* margin: 9px */
+    margin-top: 7px;
+    border-radius: 20px;
+
+
+   }
+   .right-content .img5{
+    width: 50%;
+    border: 2px solid white;
+ border-radius: 20px;
+
+    margin-top: 7px;
+   }
+
+   @media (max-width:500px){
+      .right-content  .img1{
+           width: 90%;   
+       }
+       .right-content  .img2{
+        width: 90%;   
+    }
+    .right-content  .img3{
+        width: 90%;   
+    }
+    .right-content  .img4{
+        width: 90%;   
+    }
+    .right-content  .img5{
+        width: 90%;   
+    }
+   }
