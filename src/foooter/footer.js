@@ -14,7 +14,7 @@ function hh() {
             <div className="col2">
                 <div className="col21">
                     <ul>
-                        <li><a href="/">Home</a></li>
+                        <li><a href="/heyl">Home</a></li>
                         <li><a href="/about">About</a></li>
 
                         <li><a href="/project">Projects</a></li>

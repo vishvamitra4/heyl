@@ -7,12 +7,7 @@ import { Link } from 'react-router-dom';
 class App extends Component {
 
     render() {
-        const linkstyle = {
-          
-           textDecoration : "none",
-           width: "100%"
-        }
-
+     
 
         return (
             <div>
@@ -28,7 +23,7 @@ class App extends Component {
                 
                     <div className="navbar-items">
                         
-                        <Link className="link"  to="/">Home</Link>
+                        <Link className="link"  to="/heyl">Home</Link>
                         <Link  className="link" to="/about">About</Link>
 
                         <Link className="link"  to="/contact">Contact</Link>
